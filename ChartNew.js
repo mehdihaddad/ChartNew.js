@@ -6596,7 +6596,7 @@ switch(ctx.tpchart) {
 								lastNotMissing : lastNotMissingj[j],
 								prevNotMissing : prevnotemptyj,
 								prevMissing : prevemptyj,
-								grandtotal : grandtotal,
+								grandtotal : grandtotal
 								 }; 
 							break;
 						case "Line" :
@@ -6609,7 +6609,7 @@ switch(ctx.tpchart) {
 								lastNotMissing : lastNotMissingi[i],
 								prevNotMissing : prevnotemptyj,
 								prevMissing : prevemptyj,
-								grandtotal : grandtotal,
+								grandtotal : grandtotal
 								 }; 
 							break;
 						}
@@ -7061,6 +7061,5 @@ function setTextBordersAndBackground(ctx,text,fontsize,xpos,ypos,borders,borders
 	
 	ctx.restore();
 };
-
 
 
